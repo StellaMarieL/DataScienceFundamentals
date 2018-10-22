@@ -1,5 +1,5 @@
 import requests
-
+#Create a function
 def lookup(title, value):
     url = f"https://en.wikipedia.org/api/rest_v1/page/summary/{title}"
     req = requests.get(url)
